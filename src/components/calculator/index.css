@@ -1,0 +1,51 @@
+*{
+    background-color: wheat;
+}
+
+main{
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 375px;
+    align-items: center;
+}
+
+input{
+    text-align: center;
+    max-width: 390px;
+    width: 386px;
+    height: 75px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+
+.num{
+    width: 130px;
+    padding: 15px 0 15px 0;
+}
+
+.zero{
+    width: 195px;
+    padding: 15px 0 15px 0;
+    margin-bottom: 0;
+}
+
+.oparator{
+    margin-top: 0;
+    width: 97.5px;
+    padding: 15px 0 15px 0;
+}
+
+.functions{
+    width: 195px;
+    padding: 15px 0 15px 0;
+}
+
+button{
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid white;
+}
